@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Alpha Code OS</title>
+    <link rel="stylesheet" href="main_styles.css">
+</head>
+
+<body style="background-color: rgb(18,16,31); height: 170vh;">
+<script src="main_scripts.js"></script>
+
+<!-- Task Bar -->
+<div class="task_bar">
+    <img class="task_bar_background" src="Assets/UI/task_bar.png"/>
+    <div class="task_bar_end"></div>
+</div>
+
+
+
+<!-- Folder Icons -->
+ <div class="app_shortcut">
+    <img src="Assets/UI/folder.png" class="app_icon"/>
+    <div class="app_name">Games</div>
+ </div>
+
+ <div class="app_shortcut" style="top:130px">
+    <img src="Assets/UI/folder.png" class="app_icon"/>
+    <div class="app_name">Cheats</div>
+ </div>
+
+ <div class="app_shortcut" style="top:250px">
+    <img src="Assets/UI/folder.png" class="app_icon"/>
+    <div class="app_name">Other</div>
+ </div>
+
+<div class="app_shortcut" style="top:370px">
+    <img src="Assets/UI/settings.png" class="app_icon"/>
+    <div class="app_name">Settings</div>
+ </div>
+
+<div class="app_shortcut" style="top:490px" onclick="test_app_load()">
+    <img src="Assets/UI/test.png" class="app_icon"/>
+    <div class="app_name">Test App</div>
+ </div>
+
+
+
+<!-- Game Window -->
+<div class="window" id="window_ID_games">
+    <div class="window_bar" id="window_bar_ID_games">
+        <img class="window_bar_background" src="Assets/UI/window_bar.png" />
+        <div class="window_bar_end"></div>
+    </div>
+    <div class="window_content">
+    
+        <!-- Games -->
+          <div class="app_shortcut" onlick="nes_load()">
+     <img src="Apps/Nes/icon.png" class="app_icon"/>
+        <div class="app_name">NES</div>
+         </div>
+
+
+    </div>
+</div>
+
+
+
+
+</body>
+
+</html>
