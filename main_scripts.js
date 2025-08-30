@@ -21,5 +21,5 @@ function test_app_load() {
 
 // Game Apps
 function emulator_load() {
- window.open("Apps/Emulator JS/4.2.3/index.html", "Test_App", "height=500,width=600");
+ window.open("ALPHA-Apps/Apps/Emulator JS/4.2.3/index.html", "Test_App", "height=500,width=600");
 }
