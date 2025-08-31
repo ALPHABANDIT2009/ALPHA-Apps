@@ -126,6 +126,42 @@ html, body {
 
 }
 
+.window_close {
+
+    position: absolute;
+         right: 0px;
+     top: 50%;
+     transform: translate(0, -50%);
+transition: 0.3s;
+background-color: transparent;
+width: 40px;
+height: 30px;
+  cursor: url("Assets/Cursors/Default/Pointer.ico"), default;
+  text-align: center;
+  
+}
+.window_close:hover {
+
+  transition: 0.3s;
+    font-size: larger;
+ 
+}
+.window_close_text {
+      position: absolute;
+               left: 50%;
+     top: 55%;
+     transform: translate(-50%, -50%);
+}
+
+.window_title {
+
+    position: absolute;
+    left: 10px;
+     top: 55%;
+     transform: translate(0, -50%);
+
+}
+
 /* App Shortcuts */
 .app_shortcut {
 

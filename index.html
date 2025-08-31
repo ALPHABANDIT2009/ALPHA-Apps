@@ -18,14 +18,14 @@
 
 
 <!-- Folder Icons -->
- <div class="app_shortcut">
+ <div class="app_shortcut" onclick="game_folder_load()">
     <img src="Assets/UI/folder.png" class="app_icon"/>
     <div class="app_name">Games</div>
  </div>
 
  <div class="app_shortcut" style="top:130px;cursor: url(Assets/Cursors/Default/Deny.ico), default;">
     <img src="Assets/UI/folder.png" class="app_icon"/>
-    <div class="app_name">Cheats</div>
+    <div class="app_name">Exploits</div>
  </div>
 
  <div class="app_shortcut" style="top:250px;cursor: url(Assets/Cursors/Default/Deny.ico), default;">
@@ -49,6 +49,8 @@
 <div class="window" id="window_ID_games">
     <div class="window_bar" id="window_bar_ID_games">
         <img class="window_bar_background" src="Assets/UI/window_bar.png" />
+        <div class="window_title">Folder | Games</div>
+        <div class="window_close" onclick="game_folder_close()"><div class="window_close_text">X</div></div>
         <div class="window_bar_end"></div>
     </div>
     <div class="window_content">
