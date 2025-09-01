@@ -198,10 +198,12 @@ height: 30px;
 .app_name {
     font-size: 1.1vw;
     position: absolute;
-     top: 80px;
+     top: 78px;
      left: 50%;
      transform: translate(-50%, 0);
-    white-space: nowrap;
+    white-space: wrap;
+   
+    text-align: center;
 }
 
 /* Cursor States */
